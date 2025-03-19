@@ -99,7 +99,7 @@ class IframeCommunicator {
         }
 }
 // 创建 iframe 并指定其来源
-const myIframe = createIframe(iframeId,'http://192.168.100.161:84/intelligenceQaPro/qaMainPage');
+const myIframe = createIframe(iframeId,'http://192.168.100.161/intelligenceQaPro/qaMainPage');
  // 使用IframeCommunicator与iframe通信
-const communicator = new IframeCommunicator(iframeId, 'http://192.168.100.161:84/intelligenceQaPro/qaMainPage'); // 替换为目标origin
+const communicator = new IframeCommunicator(iframeId, 'http://192.168.100.161/intelligenceQaPro/qaMainPage'); // 替换为目标origin
 
